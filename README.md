@@ -14,7 +14,17 @@ At the end of this training, I hope to also begin work on these projects (initia
 10. Expense Tracker (API)
 11. TMDB CLI Tool (CLI)
 12. Text-Based, Web-Hosted Game "Barbarian Prince" (Web App) add graphics later somehow? Add function as admin to add game elements instead of having to type hard code everything, too.
-
+13. Caching Proxy (CLI)
+14. Markdown Note-taking App (API)
+15. URL Shortening Service (API)
+16. Broadcast Server (CLI)
+17. E-Commerce API (API)
+18. Workout Tracker (API)
+19. Image Processing Service (API)
+20. Movie Reservation System (API)
+21. Real-time Leaderboard (API)
+22. Database Backup Utility (CLI)
+23. Scalable E-Commerce Platform (API)
 
 Day 1 (04.09.25) Log:
 I worked through the beginning of the Beau Carnes course and reminded myself of a lot of the Python 3 syntax and completed the Rock Paper Scissors game.
