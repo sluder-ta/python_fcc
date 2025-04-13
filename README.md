@@ -28,3 +28,7 @@ At this point I think I should take a break, I've completed 5/52 exercises for L
 
 Day 4 (4.12.25) Log:
 I'm cruising through this book while I've got the time to do so on the weekend. It's been very repetitive, but I think that's part of Shaw's process. I'm quickly approaching where I left off when I got the book the first time (exercise 14). I want to commit to completing the book, and actually building projets, not just completing an exercise out of a tutorial.
+Time for a break - 16/52 exercises for LP3THW.
+
+Day 5 (4.13.25) Log:
+I'm continuing to work through this book, and I'm now farther along than I've ever been. It's cool to see how functional Python can be in so many different ways.
