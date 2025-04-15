@@ -42,3 +42,6 @@ Time for a break - 16/52 exercises for LP3THW.
 
 Day 5 (4.13.25) Log:
 I'm continuing to work through this book, and I'm now farther along than I've ever been. It's cool to see how functional Python can be in so many different ways.
+
+Day 6 (4.14.25) Log:
+Exercise 22 is kind of blowing my mind. I understand the programming behind it all, but I don't really get encoding just yet. I'll look for a YouTube video to help explain it.
