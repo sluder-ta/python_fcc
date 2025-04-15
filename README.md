@@ -1,4 +1,4 @@
-# python_for_beginners
+# learning_python
 I follow along with Beau Carnes and more from FreeCodeCamp to learn Python (https://www.youtube.com/watch?v=eWRfhZUzrAc is the first video in the series).
 
 At the end of this training, I hope to also begin work on these projects (initial list came from this resource: https://roadmap.sh/projects?g=python)
@@ -45,3 +45,6 @@ I'm continuing to work through this book, and I'm now farther along than I've ev
 
 Day 6 (4.14.25) Log:
 Exercise 22 is kind of blowing my mind. I understand the programming behind it all, but I don't really get encoding just yet. I'll look for a YouTube video to help explain it.
+
+Day 7 (4.15.25) Log:
+I knocked out a couple of exercises this morning before heading into the office, but it felt good to be able to type so many of the exercises so quickly AND it was great to handle the "test" from exercise 26 so quickly. Maybe I missed a few small things, I just used vscode to clear all of the errors, but I think I picked up the big things. I can review it again later for smaller mistakes like spelling or incorrect numbers, but I wanted to finish this before the workday began.
