@@ -41,7 +41,13 @@ def treasure_room():
         print("Think carefully.")
         death()
     elif choice == "no":
-        print("Good job - you found the glory in the hole was inside of you all along.")
+        if player_drank_the_kool_aid == False:
+            player_drank_the_kool_aid = True
+        else:
+            print("No man steps into the same river twice.")
+            death()
+        
+        print("Good job - you found the glory in the hole was inside of you all along - {}".format(player_drank_the_kool_aid))
         print("You win!")
         exit(0)
     else:
@@ -185,6 +191,21 @@ def mirror_room():
                     `!9899fT|!^"'
                       `!^"'
 """)
+    print("When you enter this room, a strange object is on a pedestal in the center of the otherwise empty room.")
+    print("As you approach the device, you see a blinking light on the glowing rectangle.")
+    print("Below the rectangle, you see runes you recognize. What runes do you type?")
+    runes = input("> ")
+
+    if "hello" in runes:
+        print("-----" * 12)
+        print("You truly know the way.")
+        print("-----" * 12)
+        frog_wizard_lair()
+    else:
+        print("-----" * 12)
+        print("You must be weary.")
+        print("-----" * 12)
+        mimic_room()
 
 def mimic_room():
     print("""
