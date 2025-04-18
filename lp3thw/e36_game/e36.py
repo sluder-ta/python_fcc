@@ -3,10 +3,9 @@ from sys import exit
 player_drank_the_kool_aid = False
 
 def treasure_room():
-    print("""
-                  ___
+    print(r"""     ___
                   `. \\
-                    \_)
+                    \\_)
     ____ _,..OOO......\...OOO-...._ ___
   .`    '_.-(  9``````````P  )--...)   `.
  ` ((     `  || __         ||   `     )) `
@@ -37,17 +36,11 @@ def treasure_room():
     print("Do you drink from the Kool-Aid Man's offering?")
     choice = input("> ")
 
-    if choice == "yes":
+    if "yes" in choice:
         print("Think carefully.")
         death()
-    elif choice == "no":
-        if player_drank_the_kool_aid == False:
-            player_drank_the_kool_aid = True
-        else:
-            print("No man steps into the same river twice.")
-            death()
-        
-        print("Good job - you found the glory in the hole was inside of you all along - {}".format(player_drank_the_kool_aid))
+    elif "no" in choice:
+        print("Good job - you found the glory in the hole was inside of you all along.")
         print("You win!")
         exit(0)
     else:
@@ -125,7 +118,7 @@ def dungeon_entrance_left():
         death()
 
 def frog_wizard_lair():
-    print("""
+    print(r"""
                              .-----.
                             /7  .  (
                            /   .-.  \\
@@ -186,7 +179,7 @@ def frog_wizard_lair():
         treasure_room()
 
 def mirror_room():
-    print("""
+    print(r"""
                        .,,uod8B8bou,,.
               ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
          ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
@@ -235,7 +228,7 @@ def mirror_room():
         mimic_room()
 
 def mimic_room():
-    print("""
+    print(r"""
         _____
     .-,;=_;_),-.
      \_\(),()/_/
@@ -247,7 +240,7 @@ def mimic_room():
        /  |  \\
        ... ...
 """)
-    print("'tee-hee-hee! get past me if you can!")
+    print("'tee-hee-hee! get past me if you can!'")
     print("'i have a question for you!'")
     print("'why do people do anything?'")
 
