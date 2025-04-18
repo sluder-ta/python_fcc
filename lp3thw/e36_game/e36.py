@@ -33,7 +33,33 @@ def treasure_room():
 """)
 
 def dungeon_entrance_right():
-    return
+    print("When you walk this direction you notice two things quite quickly:")
+    print("1. It smells strongly of foot odor.")
+    print("2. The air becomes more humid.")
+    print("...\n" * 5, end = " ")
+    print("You realize you're back in your middle school locker room - or at least an exact replica of it.")
+    print("Standing in front of you is ol' biggus dingus, the bully that teased you relentlessly.")
+    print("What do you do?")
+    print("1. Finally stand up to him and tell him what you really think of him!")
+    print("2. You finally fight back since you're bigger than he is now!")
+    print("3. Calmly walk past this appparition.")
+    choice = int(input("> "))
+    
+    if choice:
+        choice = int(choice)
+        if choice == 1:
+            print("You're pathetic. You must let go of the past.")
+            dungeon_entrance_right()
+        elif choice == 2:
+            print("You're pathetic. You want to beat up a tween-ager?")
+            dungeon_entrance_right()
+        elif choice == 3:
+            print("This is clearly the right choice.")
+            mirror_room()
+        else:
+            death()
+    else:
+        death()
 
 def dungeon_entrance_left():
     return
@@ -150,7 +176,7 @@ def play_game():
     print("It looks new enough and strong enough to support someone to travel down to the bottom of the well.")
     print("You begin your descent into the darkness below.")
     
-    for i in range(0,6):
+    for i in range(0,4):
         print("_")
         print("__")
         print("___")
