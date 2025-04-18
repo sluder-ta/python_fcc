@@ -38,9 +38,12 @@ def treasure_room():
     choice = input("> ")
 
     if choice == "yes":
-        return
+        print("Think carefully.")
+        death()
     elif choice == "no":
-        return
+        print("Good job - you found the glory in the hole was inside of you all along.")
+        print("You win!")
+        exit(0)
     else:
         print("Think carefully.")
         death()
@@ -73,6 +76,7 @@ def dungeon_entrance_right():
             print("-----" * 12)
             dungeon_entrance_right()
         elif choice == 3:
+            print("-----" * 12)
             print("This is clearly the right choice.")
             print("\n" * 5, end = " ")
             mirror_room()
@@ -94,6 +98,25 @@ def dungeon_entrance_left():
     print("2. Grind your heel into the rubble of the first one.")
     print("3. Apologize profusely and walk by.")
     choice = int(input("> "))
+
+    if choice == 1:
+        print("-----" * 12)
+        print("That was just cruel. You must be better.")
+        print("-----" * 12)
+        dungeon_entrance_left()
+    elif choice == 2:
+        print("-----" * 12)
+        print("This is correct. You must not destroy anything else except what you've already conquered.")
+        print("\n" * 5, end = " ")
+        mirror_room()
+    elif choice == 3:
+        print("-----" * 12)
+        print("You must not falter once you've made a choice. Remain strong.")
+        print("-----" * 12)
+        dungeon_entrance_left()
+    else:
+        print("Follow the rules.")
+        death()
 
 def frog_wizard_lair():
     print("""
