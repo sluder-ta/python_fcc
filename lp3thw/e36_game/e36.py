@@ -48,13 +48,18 @@ def dungeon_entrance_right():
     if choice:
         choice = int(choice)
         if choice == 1:
+            print("-----" * 12)
             print("You're pathetic. You must let go of the past.")
+            print("-----" * 12)
             dungeon_entrance_right()
         elif choice == 2:
+            print("-----" * 12)
             print("You're pathetic. You want to beat up a tween-ager?")
+            print("-----" * 12)
             dungeon_entrance_right()
         elif choice == 3:
             print("This is clearly the right choice.")
+            print("\n" * 5, end = " ")
             mirror_room()
         else:
             death()
