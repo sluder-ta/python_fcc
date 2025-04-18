@@ -247,6 +247,23 @@ def mimic_room():
        /  |  \\
        ... ...
 """)
+    print("'tee-hee-hee! get past me if you can!")
+    print("'i have a question for you!'")
+    print("'why do people do anything?'")
+
+    answer = input("> ")
+
+    if "greed" in answer:
+        print("-----" * 12)
+        print("'RIGHT YOU ARE!'")
+        print("'back you go to try again!'")
+        print("-----" * 12)
+        mirror_room()
+    else:
+        print("-----" * 12)
+        print("'OH YOU FOOLISH CHILD.'")
+        print("-----" * 12)
+        death()
 
 
 def start():
@@ -285,7 +302,7 @@ def play_game():
         print("__")
         print("_")
     
-    print("When you reach the bottom of the well, you notice there is a path that forks.")
+    print("When you reach the bottom of the well, you notice there is a path ahead that forks in two directions.")
     print("Do you go to the right or to the left?")
     choice = input("> ")
 
