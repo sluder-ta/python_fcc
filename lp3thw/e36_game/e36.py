@@ -156,7 +156,34 @@ def frog_wizard_lair():
  .-._.-'     '"  ) .-'   `.                   (  '"     `-._.--.
 (_________.-====' / .' /\_)`--..__________..-- `====-. _________)
 """)
-    return
+    print("'Welcome young'un!'")
+    print("' I'll give you a wish for free since you found me!' the strange frog wizard continues.")
+    print("'What do you wish for?'")
+
+    wish = input("> ")
+
+    if "happ" in wish:
+        print("-----" * 12)
+        print("'REALLY?! THAT'S WHAT YOU WISH FOR? Fine.'")
+        print("-----" * 12)
+        death()
+    elif "love" in wish:
+        print("-----" * 12)
+        print("'What an absolute sap. Fine.'")
+        print("-----" * 12)
+        death()
+    elif "peace" in wish:
+        print("-----" * 12)
+        print("'How long do you think that will actually last?! Fine.'")
+        print("-----" * 12)
+        death()
+    else:
+        print("-----" * 12)
+        print("'Great! None of that other mumbo-jumbo, get what you really want!'")
+        print("With a snap of its fingers, the frog wizard makes your wish come true.")
+        print("The frog vanishes and a door appears - you walk through the door.")
+        print("-----" * 12)
+        treasure_room()
 
 def mirror_room():
     print("""
