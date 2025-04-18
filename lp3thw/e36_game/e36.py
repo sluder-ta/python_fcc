@@ -1,5 +1,7 @@
 from sys import exit
 
+player_drank_the_kool_aid = False
+
 def treasure_room():
     print("""
                   ___
@@ -29,11 +31,24 @@ def treasure_room():
            |  \  \| . || \ || |
            |     ||   ||   ||_/
            |_|_|_||_|_||_\_|<_>
-
 """)
+    print("You did it! You found the glory in the hole!")
+    print("It was me all along - the Kool-Aid Man!")
+    print("Do you drink from the Kool-Aid Man's offering?")
+    choice = input("> ")
+
+    if choice == "yes":
+        return
+    elif choice == "no":
+        return
+    else:
+        print("Think carefully.")
+        death()
+
+    exit(0)
 
 def dungeon_entrance_right():
-    print("When you walk this direction you notice two things quite quickly:")
+    print("When you walk this direction, you notice two things quite quickly:")
     print("1. It smells strongly of foot odor.")
     print("2. The air becomes more humid.")
     print("...\n" * 5, end = " ")
@@ -62,12 +77,23 @@ def dungeon_entrance_right():
             print("\n" * 5, end = " ")
             mirror_room()
         else:
+            print("Follow the rules.")
             death()
     else:
+        print("Follow the rules.")
         death()
 
 def dungeon_entrance_left():
-    return
+    print("When you walk this direction, you see two stone idols blocking two paths.")
+    print("One guard says, 'Ho, weary traveler. We two guard two paths one will lead you to fortune, and the other leads you to danger.'")
+    print("It continues, 'One of us always lies, and the other always tells the-'")
+    print("You've heard this too many times and you impuslively smash the stone idol that was speaking.")
+    print("The other stone idol stares at you in horror.")
+    print("What do you do?")
+    print("1. Smash the second one.")
+    print("2. Grind your heel into the rubble of the first one.")
+    print("3. Apologize profusely and walk by.")
+    choice = int(input("> "))
 
 def frog_wizard_lair():
     print("""
