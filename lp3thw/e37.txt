@@ -1,0 +1,2 @@
+This lesson was a review of all the symbol operators in python.
+I will continue to memorize them.
