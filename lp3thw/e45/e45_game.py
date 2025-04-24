@@ -15,3 +15,4 @@ player_name = input("> ")
 
 player = Hero.Hero(player_name)
 player.test()
+player.check_status()
