@@ -1,13 +1,13 @@
 # LP3THW Exercise 45
 In this exercise, I've been instructed to make a game with the following requirements:
 1. Make a different game from the one(s) previously made.
-2. Use more than on file, and use import to use them.
+2. Use more than on file, and use `import` to use them.
 3. Use one class per room and give the classes names that fit their purposes
  (like GoldRoom, KoiPondRoom).
 4. Make a class that runs the rooms and knows about them. Consider having each room
 return what room is next or setting a variable of what room is next.
 
-## Initial Game Idea - Working title <Labours>
+## Initial Game Idea - Working title *Labours*
 I like the idea of a short RPG. What if I used the Herculean Labors/Tasks as my rooms,
 and you win the game by completing them all?
 Labors:
