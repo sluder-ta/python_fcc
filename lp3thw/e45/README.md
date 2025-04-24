@@ -15,11 +15,12 @@ Labors:
 - Slay the Lernaean Hydra
 - Capture the Ceryneian Hind
 - Capture the Erymanthian Boar
-- Clean the Augean tables
-- Slay the Symphalian Birds
+- Clean the Augean Stables
+- Slay the Stymphalian Birds
 - Capture the Cretan Bull
 - Steal the Mares of Diomedes
 - Obtain the Girdle of Hippolyta
+- Obtain the cattle of the three-bodied giant Geryon
 - Steal the Apples of the Hesperides
 - Capture Cerberus
 
